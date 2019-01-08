@@ -1,4 +1,4 @@
-package test
+package test1
 
 /**
  * We declare a package-level function main which returns Unit and takes

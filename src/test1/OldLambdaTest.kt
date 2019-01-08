@@ -1,4 +1,4 @@
-package test
+package test1
 
 fun main(args: Array<String>) {
     // Array<Integer> ints
@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
 
 }
 
-fun <T, R> List<T>.map(transform: (T) -> R): List<R> {
+fun <T, R> List<T>.mapper(transform: (T) -> R): List<R> {
     val result = arrayListOf<R>()
     for (item in this)
         result.add(transform(item))
