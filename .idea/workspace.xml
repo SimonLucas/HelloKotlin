@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71449150-bc20-451c-9d7c-b167b896cd65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KotlinTest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinTest" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinTest/lib/gson-2.2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinTest/src/test/LambdaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest/src/test/oldLambdaTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/META-INF/HelloKotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/test/HelloJava.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloKotlin/test/LambdaTestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloKotlin/test/LambdaTestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LambdaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OldLambdaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KotlinTest/src/views/CaveView.java" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest/src/views/CaveView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,25 +28,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
+          <entry key="java" value="1" />
           <entry key="kt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="JAVA" value="1" />
           <entry key="Kotlin" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="70" />
-          <entry key="kt" value="39" />
+          <entry key="java" value="8" />
+          <entry key="kt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="70" />
-          <entry key="Kotlin" value="39" />
+          <entry key="JAVA" value="8" />
+          <entry key="Kotlin" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -63,7 +58,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/HelloKotlin.kt">
+        <entry file="file://$PROJECT_DIR$/src/test1/HelloKotlin.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -71,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/OldLambdaTest.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1/OldLambdaTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -92,8 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KotlinTest/src/views/CaveView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -133,7 +137,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/KotlinTest" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -148,12 +152,15 @@
         <option value="$PROJECT_DIR$/KotlinJSTest/src/fancylines/FancyLines.kt" />
         <option value="$PROJECT_DIR$/KotlinJSTest/src/fancylines/index.html" />
         <option value="$PROJECT_DIR$/src/test/OldLambdaTest.kt" />
+        <option value="$PROJECT_DIR$/src/test1/OldLambdaTest.kt" />
+        <option value="$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt" />
+        <option value="$PROJECT_DIR$/KotlinTest/src/views/CaveView.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="199" />
+    <option name="x" value="306" />
+    <option name="y" value="124" />
     <option name="width" value="1714" />
     <option name="height" value="1063" />
   </component>
@@ -216,13 +223,21 @@
             <path>
               <item name="HelloKotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="KotlinTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ggi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloKotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloKotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="KotlinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HelloKotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloKotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,7 +248,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546960428493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546960675245" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -376,10 +391,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="199" width="1507" height="1050" extended-state="0" />
+    <frame x="475" y="199" width="1714" height="1063" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29965872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625598" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +403,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24112734" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23789908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/HelloJava.java">
+    <entry file="file://$PROJECT_DIR$/src/test1/HelloJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
@@ -449,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/HelloKotlin.kt">
+    <entry file="file://$PROJECT_DIR$/src/test1/HelloKotlin.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -473,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinTest/src/test/JSONTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -487,13 +495,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1/OldLambdaTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinTest/src/test/oldLambdaTest.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/OldLambdaTest.kt">
+    <entry file="file://$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwingRunVisual.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="150">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KotlinTest/src/views/CaveView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
     </entry>
