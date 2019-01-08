@@ -24,8 +24,9 @@ val canvas = initalizeCanvas()
 fun initalizeCanvas(): HTMLCanvasElement {
     val canvas = document.createElement("canvas") as HTMLCanvasElement
     val context = canvas.getContext("2d") as CanvasRenderingContext2D
-    context.canvas.width  = window.innerWidth.toInt();
-    context.canvas.height = window.innerHeight.toInt();
+    context.canvas.width  = 600; // window.innerWidth / 3;
+    context.canvas.height = 200; // window.innerHeight / 3;
+
     document.body!!.appendChild(canvas)
     return canvas
 }

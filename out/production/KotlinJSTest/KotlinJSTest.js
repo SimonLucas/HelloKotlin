@@ -20,8 +20,8 @@ var KotlinJSTest = function (_, Kotlin) {
     var tmp$, tmp$_0;
     var canvas = Kotlin.isType(tmp$ = document.createElement('canvas'), HTMLCanvasElement) ? tmp$ : throwCCE();
     var context = Kotlin.isType(tmp$_0 = canvas.getContext('2d'), CanvasRenderingContext2D) ? tmp$_0 : throwCCE();
-    context.canvas.width = window.innerWidth;
-    context.canvas.height = window.innerHeight;
+    context.canvas.width = 600;
+    context.canvas.height = 200;
     ensureNotNull(document.body).appendChild(canvas);
     return canvas;
   }
