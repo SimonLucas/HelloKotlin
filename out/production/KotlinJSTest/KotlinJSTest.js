@@ -53,6 +53,11 @@ var KotlinJSTest = function (_, Kotlin) {
     this.context.fillStyle = 'rgba(255,255,1,0.1)';
     this.context.fillRect(0.0, 0.0, this.width, this.height);
   };
+  FancyLines.prototype.message = function () {
+    this.context.fillStyle = 'rgba(255,0,1,0.5)';
+    var mess = 'test:';
+    this.context.strokeText(mess, 20.0, 30.0);
+  };
   function FancyLines$run$lambda(this$FancyLines) {
     return function () {
       this$FancyLines.line();
@@ -65,9 +70,16 @@ var KotlinJSTest = function (_, Kotlin) {
       return Unit;
     };
   }
+  function FancyLines$run$lambda_1(this$FancyLines) {
+    return function () {
+      this$FancyLines.message();
+      return Unit;
+    };
+  }
   FancyLines.prototype.run = function () {
     window.setInterval(FancyLines$run$lambda(this), 40);
     window.setInterval(FancyLines$run$lambda_0(this), 100);
+    window.setInterval(FancyLines$run$lambda_1(this), 200);
   };
   FancyLines.$metadata$ = {
     kind: Kind_CLASS,

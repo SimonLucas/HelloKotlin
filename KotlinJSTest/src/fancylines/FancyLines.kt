@@ -10,6 +10,7 @@ package fancylines
 import jquery.*
 import org.w3c.dom.CanvasRenderingContext2D
 import org.w3c.dom.HTMLCanvasElement
+
 import kotlin.browser.document
 import kotlin.browser.window
 import kotlin.js.Math
@@ -70,8 +71,15 @@ class FancyLines() {
         context.fillRect(0.0, 0.0, width.toDouble(), height.toDouble());
     }
 
+    fun message() {
+        context.fillStyle = "rgba(255,0,1,0.5)";
+        val mess = "test:" // jstest.
+        context.strokeText(mess, 20.0, 30.0)
+    }
+
     fun run() {
         window.setInterval({ line() }, 40);
         window.setInterval({ blank() }, 100);
+        window.setInterval({ message() }, 200);
     }
 }
