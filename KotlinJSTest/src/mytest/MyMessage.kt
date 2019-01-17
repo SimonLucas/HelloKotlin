@@ -3,6 +3,10 @@ package mytest
 import kotlin.random.Random
 
 // import java.util
+//
+//fun main(args: Array<String>) {
+//    Message().randomMessage()
+//}
 
 var n = 0
 class Message {

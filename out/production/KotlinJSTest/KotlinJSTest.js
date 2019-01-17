@@ -6,11 +6,11 @@ var KotlinJSTest = function (_, Kotlin) {
   var Unit = Kotlin.kotlin.Unit;
   var throwCCE = Kotlin.throwCCE;
   var ensureNotNull = Kotlin.ensureNotNull;
-  var numberToInt = Kotlin.numberToInt;
   var Kind_CLASS = Kotlin.Kind.CLASS;
+  var numberToInt = Kotlin.numberToInt;
   var Random = Kotlin.kotlin.random.Random;
   function main$lambda() {
-    (new FancyLines()).run();
+    (new HelloWorld()).run();
     return Unit;
   }
   function main(args) {
@@ -22,10 +22,53 @@ var KotlinJSTest = function (_, Kotlin) {
     var canvas = Kotlin.isType(tmp$ = document.createElement('canvas'), HTMLCanvasElement) ? tmp$ : throwCCE();
     var context = Kotlin.isType(tmp$_0 = canvas.getContext('2d'), CanvasRenderingContext2D) ? tmp$_0 : throwCCE();
     context.canvas.width = 600;
-    context.canvas.height = 200;
+    context.canvas.height = 400;
     ensureNotNull(document.body).appendChild(canvas);
     return canvas;
   }
+  function HelloWorld() {
+    var tmp$;
+    this.context = Kotlin.isType(tmp$ = canvas.getContext('2d'), CanvasRenderingContext2D) ? tmp$ : throwCCE();
+    this.height = canvas.height;
+    this.width = canvas.width;
+    this.square = this.width / 5.0;
+    this.hue = 0.0;
+    this.hueInc = 1;
+  }
+  HelloWorld.prototype.testRect = function () {
+    var x = (this.width - this.square) * Math.random();
+    var y = (this.height - this.square) * Math.random();
+    this.context.fillStyle = 'hsl(' + this.hue + ', 50%, 50%)';
+    this.hue += this.hueInc;
+    if (this.hue > 255)
+      this.hue = 0.0;
+    this.context.fillRect(x, y, this.square, this.square);
+  };
+  HelloWorld.prototype.blank = function () {
+    this.context.fillStyle = 'rgba(255,255,1,0.1)';
+    this.context.fillRect(0.0, 0.0, this.width, this.height);
+  };
+  function HelloWorld$run$lambda(this$HelloWorld) {
+    return function () {
+      this$HelloWorld.testRect();
+      return Unit;
+    };
+  }
+  function HelloWorld$run$lambda_0(this$HelloWorld) {
+    return function () {
+      this$HelloWorld.blank();
+      return Unit;
+    };
+  }
+  HelloWorld.prototype.run = function () {
+    window.setInterval(HelloWorld$run$lambda(this), 20);
+    window.setInterval(HelloWorld$run$lambda_0(this), 100);
+  };
+  HelloWorld.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'HelloWorld',
+    interfaces: []
+  };
   function FancyLines() {
     var tmp$;
     this.context = Kotlin.isType(tmp$ = canvas.getContext('2d'), CanvasRenderingContext2D) ? tmp$ : throwCCE();
@@ -107,6 +150,7 @@ var KotlinJSTest = function (_, Kotlin) {
     }
   });
   package$fancylines.initalizeCanvas = initalizeCanvas;
+  package$fancylines.HelloWorld = HelloWorld;
   package$fancylines.FancyLines = FancyLines;
   var package$mytest = _.mytest || (_.mytest = {});
   Object.defineProperty(package$mytest, 'n', {
