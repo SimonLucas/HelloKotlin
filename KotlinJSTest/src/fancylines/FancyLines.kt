@@ -73,7 +73,7 @@ class FancyLines() {
 
     fun message() {
         context.fillStyle = "rgba(255,0,1,0.5)";
-        val mess = "test:" // jstest.
+        val mess = mytest.Message().randomMessage()
         context.strokeText(mess, 20.0, 30.0)
     }
 

@@ -8,6 +8,7 @@ var KotlinJSTest = function (_, Kotlin) {
   var ensureNotNull = Kotlin.ensureNotNull;
   var numberToInt = Kotlin.numberToInt;
   var Kind_CLASS = Kotlin.Kind.CLASS;
+  var Random = Kotlin.kotlin.random.Random;
   function main$lambda() {
     (new FancyLines()).run();
     return Unit;
@@ -55,7 +56,7 @@ var KotlinJSTest = function (_, Kotlin) {
   };
   FancyLines.prototype.message = function () {
     this.context.fillStyle = 'rgba(255,0,1,0.5)';
-    var mess = 'test:';
+    var mess = (new Message()).randomMessage();
     this.context.strokeText(mess, 20.0, 30.0);
   };
   function FancyLines$run$lambda(this$FancyLines) {
@@ -86,6 +87,18 @@ var KotlinJSTest = function (_, Kotlin) {
     simpleName: 'FancyLines',
     interfaces: []
   };
+  var n;
+  function Message() {
+  }
+  Message.prototype.randomMessage = function () {
+    n = n + 1 | 0;
+    return n.toString() + ' : ' + (Random.Default.nextDouble() < 0.5 ? 'Hello' : 'Goodbye');
+  };
+  Message.$metadata$ = {
+    kind: Kind_CLASS,
+    simpleName: 'Message',
+    interfaces: []
+  };
   var package$fancylines = _.fancylines || (_.fancylines = {});
   package$fancylines.main_kand9s$ = main;
   Object.defineProperty(package$fancylines, 'canvas', {
@@ -95,7 +108,18 @@ var KotlinJSTest = function (_, Kotlin) {
   });
   package$fancylines.initalizeCanvas = initalizeCanvas;
   package$fancylines.FancyLines = FancyLines;
+  var package$mytest = _.mytest || (_.mytest = {});
+  Object.defineProperty(package$mytest, 'n', {
+    get: function () {
+      return n;
+    },
+    set: function (value) {
+      n = value;
+    }
+  });
+  package$mytest.Message = Message;
   canvas = initalizeCanvas();
+  n = 0;
   main([]);
   Kotlin.defineModule('KotlinJSTest', _);
   return _;
