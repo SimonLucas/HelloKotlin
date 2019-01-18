@@ -52,6 +52,7 @@ class HelloWorld() {
         if (hue > 255) hue = 0.0
         // context.fillRect(0.0, 0.0, width.toDouble(), height.toDouble());
         context.fillRect(x, y, square, square);
+        // context.
 
     }
 
