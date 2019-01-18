@@ -53,6 +53,7 @@ class HelloWorld() {
         // context.fillRect(0.0, 0.0, width.toDouble(), height.toDouble());
         context.fillRect(x, y, square, square);
         // context.
+        // context.fillC
 
     }
 

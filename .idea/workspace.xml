@@ -4,9 +4,7 @@
     <list default="true" id="71449150-bc20-451c-9d7c-b167b896cd65" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/KotlinTest/src/jstest/Message.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/KotlinTest/src/jstest/MessageTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinJSTest/src/fancylines/FancyLines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinJSTest/src/fancylines/FancyLines.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotlinJSTest/src/mytest/MyMessage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinJSTest/src/mytest/MyMessage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinTest" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinTest/lib/gson-2.2.4.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinTest/src/games/caveswing/CaveSwing.kt" afterDir="false" />
@@ -69,7 +67,7 @@
           <entry key="Enforced Plain Text" value="15" />
           <entry key="HTML" value="76" />
           <entry key="JAVA" value="32" />
-          <entry key="Kotlin" value="888" />
+          <entry key="Kotlin" value="905" />
         </counts>
       </usages-collector>
     </session>
@@ -106,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KotlinJSTest/src/fancylines/FancyLines.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="529">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding>
                 <element signature="e#178#357#0" expanded="true" />
               </folding>
@@ -202,8 +200,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
-    <option name="y" value="166" />
+    <option name="x" value="337" />
+    <option name="y" value="79" />
     <option name="width" value="1407" />
     <option name="height" value="1093" />
   </component>
@@ -341,7 +339,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547749291838" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547823086147" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -499,7 +497,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="166" width="1407" height="1093" extended-state="0" />
+    <frame x="337" y="79" width="1407" height="1093" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3985348" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -655,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/KotlinJSTest/src/fancylines/FancyLines.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="529">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="e#178#357#0" expanded="true" />
           </folding>
